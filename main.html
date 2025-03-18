@@ -1,16 +1,63 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .imageContainer {
+            margin: 20px 0;
+        }
+        .imageContainer img {
+            width: 100%;
+            max-width: 1100px;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        td img {
+            width: 100%;
+            height: auto;
+            max-width: 200px;
+        }
+        .first-column, .last-column {
+            width: 200px;
+        }
+        .middle-column {
+            width: 600px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <h1>Architecture</h1>
+    <div class="imageContainer">
+        <img src="https://via.placeholder.com/1100x400" alt="Architecture Banner">
+    </div>
+    <table>
+        <tr>
+            <td class="first-column"><img src="https://via.placeholder.com/200" alt="Building 1"></td>
+            <td class="middle-column">Architecture is both an art and a science, blending aesthetics with functionality.</td>
+            <td class="last-column"><img src="https://via.placeholder.com/200" alt="Building 2"></td>
+        </tr>
+        <tr>
+            <td class="first-column"><img src="https://via.placeholder.com/200" alt="Building 3"></td>
+            <td class="middle-column">Modern architecture emphasizes sustainability and innovative design techniques.</td>
+            <td class="last-column"><img src="https://via.placeholder.com/200" alt="Building 4"></td>
+        </tr>
+    </table>
 </body>
-
 </html>
